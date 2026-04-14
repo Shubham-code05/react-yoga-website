@@ -1,3 +1,9 @@
+# React Yoga Website
+
+🔗 Live Demo: https://react-yoga-website.vercel.app
+
+🔗 GitHub Repo: https://github.com/Shubham-code05/react-yoga-website
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
