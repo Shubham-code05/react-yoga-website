@@ -1,0 +1,59 @@
+.why-choose-us {
+  background: linear-gradient(to right, hsl(40, 90%, 46%), #fc4a1a);
+  padding: 80px 10%;
+  color: white;
+}
+
+.why-choose-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.small-heading {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+
+.text-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.join-btn {
+  background: white;
+  color: #28c76f;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.join-btn:hover {
+  background: #28c76f;
+  color: white;
+}
+
+.image-section img {
+  width: 350px;
+  max-width: 100%;
+}

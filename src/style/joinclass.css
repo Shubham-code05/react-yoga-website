@@ -1,0 +1,88 @@
+.join-class {
+  text-align: center;
+  padding: 80px 60px;
+  background: #f9fafb;
+}
+
+.join-class-header h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.join-class-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #22c55e;
+  margin-bottom: 40px;
+}
+
+.join-class-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.class-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.class-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.class-card img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.class-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.class-card p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.join-class-footer .view-all-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 2px solid #22c55e;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #22c55e;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.join-class-footer .view-all-btn:hover {
+  background: #22c55e;
+  color: #fff;
+}
+
+/* ✅ Responsive */
+@media (max-width: 900px) {
+  .join-class-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .join-class-grid {
+    grid-template-columns: 1fr;
+  }
+}

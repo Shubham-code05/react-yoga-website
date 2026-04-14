@@ -1,0 +1,64 @@
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background: linear-gradient(90deg, #2bc0e4, #29ffc6);
+  border-radius: 12px;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.cta-content {
+  max-width: 600px;
+}
+
+.cta-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.cta-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-outline {
+  padding: 14px 28px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  color: #2bc0e4;
+}
+
+.btn-filled {
+  padding: 14px 28px;
+  background: #fff;
+  color: #28c76f;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-filled:hover {
+  background: #28c76f;
+  color: #fff;
+}
