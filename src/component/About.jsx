@@ -5,7 +5,7 @@ import userImg from '../image/WhatsApp_Image_2024-11-15_at_5.52.32_AM_optimized_
 
 function About() {
   return (
-     <section className="about">
+    <section className="about" id="about">
       <div className="about-content">
         <h4>About Us</h4>
         <h2>High Quality &amp; Professional <br /> Yoga Club</h2>
@@ -17,11 +17,11 @@ function About() {
         </p>
 
         <div className="testimonial">
-          <img src={userImg} alt="User" />
+          <img src={userImg} alt="Abhay Singh" />
           <blockquote>
             “Nunc consequat justo eget enim finibus porta. Suspendisse orci nunc, rutrum quis nunc sed, feugiat hendrerit massa. In cursus ornare sollicitudin.”
           </blockquote>
-          <p className="author">Anthony Webster, CEO Yoga studio</p>
+          <p className="author">Abhay Singh, CEO Yoga Studio</p>
         </div>
       </div>
 

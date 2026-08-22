@@ -4,7 +4,7 @@ import '../style/heropage.css'
 
 function HeroPage() {
   return (
-    <section className="hero">
+    <section className="hero" id="landing">
       <div className="hero-content">
         <h2>Divi Yoga Studio</h2>
         <h1>Balance, Mind &amp; Body</h1>
@@ -12,7 +12,7 @@ function HeroPage() {
           Nunc consequat justo eget enim finibus porta. <br />
           Suspendisse orci nunc, rutrum quis nunc sed.
         </p>
-        <a href="#get-started" className="btn">Get Started</a>
+        <a href="#contact" className="btn">Get Started</a>
       </div>
 
       <div className="hero-image">

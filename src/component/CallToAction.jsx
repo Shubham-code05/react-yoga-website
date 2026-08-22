@@ -12,8 +12,8 @@ function CallToAction() {
         </p>
       </div>
       <div className="cta-buttons">
-        <a href="#member" className="btn-outline">BECOME A MEMBER</a>
-        <a href="#class" className="btn-filled">TAKE A CLASS</a>
+        <a href="#contact" className="btn-outline">BECOME A MEMBER</a>
+        <a href="#classes" className="btn-filled">TAKE A CLASS</a>
       </div>
     </section>
   )

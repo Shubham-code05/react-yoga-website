@@ -23,14 +23,6 @@ header {
   padding: 15px 40px;
 }
 
-.header-content h1 {
-  font-size: 22px;
-  font-weight: 700;
-  color: #222;
-}
-
-
-
 nav ul {
   list-style: none;
   display: flex;
@@ -46,10 +38,20 @@ nav ul li a {
   transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-  color: lch(34.21% 71.96 38.25 / 0.96);
-}
-
 nav ul li svg {
   vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    padding: 10px 18px;
+  }
+
+  nav ul {
+    gap: 12px;
+  }
+
+  nav ul li a {
+    font-size: 14px;
+  }
 }

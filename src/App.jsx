@@ -7,6 +7,7 @@ import JoinClass from './component/JoinClass';
 import WhyChooseUs from './component/WhyChooseUs';
 import Partners from './component/Partners';
 import CallToAction from './component/CallToAction';
+import Contact from './component/Contact';
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
       <WhyChooseUs/>
        <Partners/>
       <CallToAction/>
+      <Contact />
       
 
     </>
