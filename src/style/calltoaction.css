@@ -1,64 +1,11 @@
-.cta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 10%;
-  background: linear-gradient(90deg, #2bc0e4, #29ffc6);
-  border-radius: 12px;
-  flex-wrap: wrap;
-  color: #fff;
-}
-
-.cta-content {
-  max-width: 600px;
-}
-
-.cta-content h2 {
-  font-size: 32px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.cta-content p {
-  font-size: 16px;
-  line-height: 1.6;
-  opacity: 0.9;
-}
-
-.cta-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.btn-outline {
-  padding: 14px 28px;
-  border: 2px solid #fff;
-  border-radius: 30px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.btn-outline:hover {
-  background: #fff;
-  color: #2bc0e4;
-}
-
-.btn-filled {
-  padding: 14px 28px;
-  background: #fff;
-  color: #28c76f;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.btn-filled:hover {
-  background: #28c76f;
-  color: #fff;
-}
+.cta { display: flex; justify-content: space-between; align-items: center; gap: 2rem; padding: 5rem clamp(1.5rem, 10vw, 10rem); background: #b9573e; color: #fffaf2; }
+.cta-content { max-width: 620px; }
+.cta-content h2 { margin-bottom: 1rem; font-family: 'Playfair Display', Georgia, serif; font-size: clamp(2.2rem, 4vw, 3.6rem); font-weight: 600; line-height: 1; }
+.cta-content p { color: #f4d8c9; line-height: 1.7; }
+.cta-buttons { display: flex; flex-direction: column; gap: 0.8rem; min-width: 190px; }
+.btn-outline, .btn-filled { padding: 0.95rem 1.2rem; border: 1px solid #fffaf2; border-radius: 2px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-align: center; text-decoration: none; text-transform: uppercase; transition: all 0.2s ease; }
+.btn-outline { color: #fffaf2; }
+.btn-filled { background: #fffaf2; color: #b9573e; }
+.btn-outline:hover { background: #fffaf2; color: #b9573e; }
+.btn-filled:hover { background: #20342d; border-color: #20342d; color: #fffaf2; }
+@media (max-width: 700px) { .cta { align-items: flex-start; flex-direction: column; } .cta-buttons { width: 100%; } }

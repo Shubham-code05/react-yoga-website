@@ -17,7 +17,7 @@ function WhyChooseUs() {
             Ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
             Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia.
           </p>
-          <button className="join-btn">JOIN US NOW</button>
+          <a className="join-btn" href="#contact">JOIN US NOW</a>
         </div>
         
         <div className="image-section">

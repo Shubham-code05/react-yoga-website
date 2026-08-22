@@ -1,7 +1,6 @@
 import React from 'react'
 import '../style/about.css'
 import aboutImg from '../image/yoga-02.png'
-import userImg from '../image/WhatsApp_Image_2024-11-15_at_5.52.32_AM_optimized_50.jpeg'
 
 function About() {
   return (
@@ -17,7 +16,6 @@ function About() {
         </p>
 
         <div className="testimonial">
-          <img src={userImg} alt="Abhay Singh" />
           <blockquote>
             “Nunc consequat justo eget enim finibus porta. Suspendisse orci nunc, rutrum quis nunc sed, feugiat hendrerit massa. In cursus ornare sollicitudin.”
           </blockquote>

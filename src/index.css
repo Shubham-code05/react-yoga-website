@@ -1,6 +1,8 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root { font-family: 'DM Sans', sans-serif; color: #20342d; background: #fbf8f2; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { min-width: 320px; background: #fbf8f2; }
+button, input, textarea { font-family: inherit; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #e5a35d; outline-offset: 3px; }
