@@ -8,6 +8,7 @@ import WhyChooseUs from './component/WhyChooseUs';
 import Partners from './component/Partners';
 import CallToAction from './component/CallToAction';
 import Contact from './component/Contact';
+import ProgramGuide from './component/ProgramGuide';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <HeroPage />
       <About/>
       <JoinClass/>
+      <ProgramGuide />
       <WhyChooseUs/>
        <Partners/>
       <CallToAction/>
