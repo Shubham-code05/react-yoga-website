@@ -11,8 +11,11 @@ function Navbar() {
             <li><a href="#landing">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#classes">Classes</a></li>
+            <li><a href="#classes">General Exercise</a></li>
+            <li><a href="#classes">Strength &amp; Bodybuilding</a></li>
+            <li><a href="#classes">Yoga</a></li>
+            <li><a href="#classes">Meditation</a></li>
             <li><a href="#contact">Contact</a></li>
-            
           </ul>
         </nav>
       </div>
